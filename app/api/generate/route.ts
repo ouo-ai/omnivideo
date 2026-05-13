@@ -61,7 +61,7 @@ export async function POST(request: NextRequest) {
     const validResolutions = model === "sora-2-pro" ? PRO_RESOLUTIONS : STANDARD_RESOLUTIONS
     if (!validResolutions.has(resolution)) {
       return NextResponse.json(
-        { error: model === "sora-2-pro" ? "Choose 720p, 1024p, or 1080p." : "Sora 2 supports 720p only." },
+        { error: model === "sora-2-pro" ? "Choose 720p, 1024p, or 1080p." : "Omni Video supports 720p only." },
         { status: 400 }
       )
     }

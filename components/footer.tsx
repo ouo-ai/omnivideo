@@ -14,7 +14,7 @@ export function Footer() {
               Omni Video<span className="text-cyan-400">.</span>
             </Link>
             <p className="text-white/50 leading-relaxed max-w-md">
-              Omni Video is an AI video generator powered by Sora 2. Create stunning videos from text prompts with professional quality through our server-side APIMart integration.
+              Omni Video is an AI video generator for creating stunning videos from text prompts with professional quality through our server-side APIMart integration.
             </p>
           </div>
           
@@ -39,7 +39,7 @@ export function Footer() {
         <div className="flex flex-col md:flex-row items-center justify-between pt-8 border-t border-white/5 text-sm text-white/40">
           <p>&copy; {currentYear} Omni Video. All rights reserved.</p>
           <p className="mt-4 md:mt-0">
-            Powered by APIMart Sora 2 integration
+            Powered by APIMart video generation
           </p>
         </div>
       </div>

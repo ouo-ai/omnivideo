@@ -8,17 +8,17 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-sans" })
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://omni-video-ai.org"
 
 const siteDescription =
-  "Omni Video lets you generate Sora 2 videos from prompts with secure APIMart processing, 720p-1080p options, and live task status."
+  "Omni Video lets you generate AI videos from prompts with secure APIMart processing, 720p-1080p options, and live task status."
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   applicationName: "Omni Video",
   title: {
-    default: "Omni Video: Sora 2 AI Video Generator",
+    default: "Omni Video: AI Video Generator",
     template: "%s | Omni Video"
   },
   description: siteDescription,
-  keywords: ["Omni Video", "Omni Video AI", "Sora 2 video generator", "AI video generator", "text to video AI", "Sora 2 Pro", "APIMart video API"],
+  keywords: ["Omni Video", "Omni Video AI", "Omni Video generator", "AI video generator", "text to video AI", "APIMart video API"],
   authors: [{ name: "Omni Video" }],
   creator: "Omni Video",
   publisher: "Omni Video",
@@ -38,13 +38,13 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: siteUrl,
     siteName: "Omni Video",
-    title: "Omni Video: Sora 2 AI Video Generator",
+    title: "Omni Video: AI Video Generator",
     description: siteDescription,
     images: ["/placeholder-logo.png"],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Omni Video: Sora 2 AI Video Generator",
+    title: "Omni Video: AI Video Generator",
     description: siteDescription,
     images: ["/placeholder-logo.png"],
     creator: "@omnivideo",
@@ -96,7 +96,7 @@ export default function RootLayout({
         description: siteDescription,
         featureList: [
           "Text-to-video prompt generation",
-          "Sora 2 and Sora 2 Pro model selection",
+          "Omni Video and Omni Video Pro model selection",
           "720p, 1024p, and 1080p resolution options",
           "16:9 landscape and 9:16 portrait generation",
           "Server-side APIMart task polling",

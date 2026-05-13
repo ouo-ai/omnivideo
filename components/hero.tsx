@@ -24,7 +24,7 @@ export function Hero() {
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass mb-8">
             <Sparkles className="w-4 h-4 text-cyan-400" />
             <span className="text-xs font-medium text-white/80 uppercase tracking-wider">
-              Powered by Sora 2
+              Omni Video Engine
             </span>
           </div>
         </motion.div>
@@ -54,7 +54,7 @@ export function Hero() {
           className="text-lg md:text-xl text-white/60 max-w-2xl mx-auto mb-12 leading-relaxed text-balance"
         >
           Transform your ideas into stunning videos with Omni Video. 
-          Our server-side APIMart Sora 2 integration delivers professional-quality AI video generation with multiple resolutions and flexible durations.
+          Our server-side APIMart integration delivers professional-quality AI video generation with multiple resolutions and flexible durations.
         </motion.p>
 
         <motion.div

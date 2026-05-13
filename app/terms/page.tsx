@@ -2,7 +2,7 @@ import Link from "next/link"
 
 export const metadata = {
   title: "Terms of Service | Omni Video",
-  description: "Terms for using Omni Video, an AI video generation interface powered by server-side APIMart Sora 2 integration.",
+  description: "Terms for using Omni Video, an AI video generation interface powered by server-side APIMart processing.",
 }
 
 export default function TermsPage() {

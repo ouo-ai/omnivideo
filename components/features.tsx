@@ -7,13 +7,13 @@ import { Zap, Shield, Globe, Layers, Clock, Sparkles } from 'lucide-react'
 const features = [
   {
     icon: <Sparkles className="w-8 h-8 text-cyan-400" />,
-    title: "Sora 2 Powered",
-    description: "Generate videos using the latest Sora 2 and Sora 2 Pro models through our secure APIMart integration.",
+    title: "Omni Video Engine",
+    description: "Generate videos with Omni Video and Omni Video Pro through our secure APIMart integration.",
   },
   {
     icon: <Layers className="w-8 h-8 text-blue-400" />,
     title: "Multiple Resolutions",
-    description: "Choose from 720p, 1024p, or 1080p output. Higher resolutions available with Sora 2 Pro.",
+    description: "Choose from 720p, 1024p, or 1080p output. Higher resolutions are available with Omni Video Pro.",
   },
   {
     icon: <Clock className="w-8 h-8 text-teal-400" />,

@@ -12,11 +12,11 @@ import {
 const faqs = [
   {
     question: "What is Omni Video?",
-    answer: "Omni Video is an AI video generator powered by Sora 2. It allows you to create professional-quality videos from text prompts with various resolutions, durations, and aspect ratios. Our server-side APIMart integration ensures secure and reliable video generation."
+    answer: "Omni Video is an AI video generator for creating professional-quality videos from text prompts with various resolutions, durations, and aspect ratios. Our server-side APIMart integration ensures secure and reliable video generation."
   },
   {
     question: "What models are available?",
-    answer: "Omni Video offers two models: Sora 2 (standard quality at 720p) and Sora 2 Pro (higher resolutions up to 1080p). Both models support the full range of durations and aspect ratios."
+    answer: "Omni Video offers two model options: Omni Video for standard quality at 720p and Omni Video Pro for higher resolutions up to 1080p. Both options support the full range of durations and aspect ratios."
   },
   {
     question: "What video durations can I create?",
@@ -24,7 +24,7 @@ const faqs = [
   },
   {
     question: "What resolutions are supported?",
-    answer: "Omni Video supports 720p resolution with the standard Sora 2 model. With Sora 2 Pro, you can also generate videos in 1024p and 1080p for higher quality output."
+    answer: "Omni Video supports 720p resolution with the standard model. With Omni Video Pro, you can also generate videos in 1024p and 1080p for higher quality output."
   },
   {
     question: "Can I use a reference image?",

@@ -22,8 +22,8 @@ interface TaskResult {
 }
 
 const MODELS: { value: Model; label: string; description: string }[] = [
-  { value: "sora-2", label: "Sora 2", description: "Standard quality" },
-  { value: "sora-2-pro", label: "Sora 2 Pro", description: "Higher resolutions" },
+  { value: "sora-2", label: "Omni Video", description: "Standard quality" },
+  { value: "sora-2-pro", label: "Omni Video Pro", description: "Higher resolutions" },
 ]
 
 const DURATIONS: Duration[] = [4, 8, 12, 16, 20]
@@ -198,7 +198,7 @@ export function VideoGenerator() {
               </div>
               <div>
                 <h2 className="text-2xl font-bold">Video Generator</h2>
-                <p className="text-white/60 text-sm">Powered by APIMart Sora 2 integration</p>
+                <p className="text-white/60 text-sm">Powered by APIMart video generation</p>
               </div>
             </div>
 
@@ -293,7 +293,7 @@ export function VideoGenerator() {
                             ? "bg-white/5 border-white/5 text-white/30 cursor-not-allowed"
                             : "bg-white/5 border-white/10 text-white/70 hover:bg-white/10"
                         } disabled:opacity-50`}
-                        title={isDisabled ? "Requires Sora 2 Pro" : ""}
+                        title={isDisabled ? "Requires Omni Video Pro" : ""}
                       >
                         {r.label}
                         {r.proOnly && <span className="block text-xs opacity-60">Pro</span>}
