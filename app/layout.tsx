@@ -1,5 +1,6 @@
 import type { Metadata } from "next"
 import { Inter } from 'next/font/google'
+import Script from "next/script"
 import "./globals.css"
 import { cn } from "@/lib/utils"
 
@@ -116,6 +117,12 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark bg-black">
       <head>
+        <Script
+          defer
+          data-domain="omni-video-ai.org"
+          src="https://plau.origai.net/js/script.js"
+          strategy="afterInteractive"
+        />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
